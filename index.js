@@ -13,15 +13,15 @@ function createFareMultiplier(int){
    return function(multiplier){
      return int * multiplier ;
    };
-}
+};
 
 const fareDoubler = createFareMultiplier(2);
 
 
 const fareTripler = function(fare){
   return fare * 3;
-}
+};
 
 function fetchSpecifiedDrivers(arr, retFun){
   return retFun(arr);
-}
+};
