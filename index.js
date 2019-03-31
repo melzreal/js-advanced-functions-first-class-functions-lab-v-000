@@ -10,8 +10,8 @@ const returnFirstTwoDrivers = function(arr){
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 function createFareMultiplier(int){
-   return function multiply(){
-     return int * int ;
+   return function(multiplier){
+     return int * multiplier ;
    };
 }
 
